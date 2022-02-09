@@ -13,7 +13,7 @@ import com.swmansion.gesturehandler.*
 import java.util.*
 
 @ReactModule(name = RNGestureHandlerModule.MODULE_NAME)
-class RNGestureHandlerModule(reactContext: ReactApplicationContext?)
+class RNGestureHandlerModule(reactContext: ReactApplicationContext)
   : ReactContextBaseJavaModule(reactContext), GestureHandlerStateManager {
   private abstract class HandlerFactory<T : GestureHandler<T>> : RNGestureHandlerEventDataExtractor<T> {
     abstract val type: Class<T>
