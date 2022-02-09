@@ -3,7 +3,6 @@
   "version": "2.2.0",
   "description": "Experimental implementation of a new declarative API for gesture handling in react-native",
   "scripts": {
-    "prepare": "bob build",
     "test": "jest",
     "build": "yarn tsc -p tsconfig.build.json",
     "precommit": "lint-staged",
