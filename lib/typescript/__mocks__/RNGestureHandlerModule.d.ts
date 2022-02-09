@@ -1,0 +1,42 @@
+declare const _default: {
+  TouchableHighlight: typeof import('react-native').TouchableHighlight;
+  TouchableNativeFeedback: typeof import('react-native').TouchableNativeFeedback;
+  TouchableOpacity: typeof import('react-native').TouchableOpacity;
+  TouchableWithoutFeedback: typeof import('react-native').TouchableWithoutFeedback;
+  ScrollView: typeof import('react-native').ScrollView;
+  FlatList: typeof import('react-native').FlatList;
+  Switch: typeof import('react-native').Switch;
+  TextInput: typeof import('react-native').TextInput;
+  DrawerLayoutAndroid: typeof import('react-native').DrawerLayoutAndroid;
+  NativeViewGestureHandler: typeof import('react-native').View;
+  TapGestureHandler: typeof import('react-native').View;
+  ForceTouchGestureHandler: typeof import('react-native').View;
+  LongPressGestureHandler: typeof import('react-native').View;
+  PinchGestureHandler: typeof import('react-native').View;
+  RotationGestureHandler: typeof import('react-native').View;
+  FlingGestureHandler: typeof import('react-native').View;
+  RawButton: typeof import('react-native').TouchableNativeFeedback;
+  BaseButton: typeof import('react-native').TouchableNativeFeedback;
+  RectButton: typeof import('react-native').TouchableNativeFeedback;
+  BorderlessButton: typeof import('react-native').TouchableNativeFeedback;
+  PanGestureHandler: typeof import('react-native').View;
+  attachGestureHandler: () => void;
+  createGestureHandler: () => void;
+  dropGestureHandler: () => void;
+  updateGestureHandler: () => void;
+  Directions: {
+    readonly RIGHT: 1;
+    readonly LEFT: 2;
+    readonly UP: 4;
+    readonly DOWN: 8;
+  };
+  State: {
+    readonly UNDETERMINED: 0;
+    readonly FAILED: 1;
+    readonly BEGAN: 2;
+    readonly CANCELLED: 3;
+    readonly ACTIVE: 4;
+    readonly END: 5;
+  };
+};
+export default _default;
